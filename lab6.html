@@ -6,3 +6,302 @@
   <title>Лабораторная работа №6</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Лаба№6</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">главная<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active"> 
+            
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Главы
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#1">Что это и как работает</a>
+                <a class="dropdown-item" href="#2">Зачем нужен клиент</a>
+                <a class="dropdown-item" href="#3">Зачем нужен сервер</a>
+                <a class="dropdown-item" href="#4">Зачем нужна база</a>
+                <a class="dropdown-item" href="#5">Плюсы архитектуры</a>
+                <a class="dropdown-item" href="#6">Минусы архитектуры</a>
+                <a class="dropdown-item" href="#7">Итого</a>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Магазин<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <div class=" md-ml-auto d-flex">
+        <div class="dropdown px-2">
+          <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Вход
+          </button>
+          <div class="dropdown-menu pt-0 pb-0" aria-labelledby="dropdownMenuButton">
+            <form>
+              <div class="col pl-0 pr-0 ">
+                <div class="pl-0 pr-0">
+                  <input type="text" class="form-control" placeholder="Nickname">
+                </div>
+                <div class="col pl-0 pr-0">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit " class="btn btn-primary">Войти</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="dropdown px-2">
+          <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Регистрация
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <form>
+              <div class="col pl-0 pr-0 ">
+                <div class="pl-0 pr-0">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="pl-0 pr-0">
+                  <input type="text" class="form-control" placeholder="Nickname">
+                </div>
+                <div class="col pl-0 pr-0">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit " class="btn btn-danger">Регистрация</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>  
+  <section class="col-md-8 m-auto" id="1">
+    <h1 class="text-center">Клиент-серверная архитектура в картинках</h1>
+    <figure class="figure">
+      <img src="кса.png" class="figure-img img-fluid rounded" alt="клиент-серверная архитектура">
+      <figcaption class="figure-caption">клиент-серверная архитектура</figcaption>
+    </figure>
+
+    <div class="row">
+      <div class="col-md-6 pt-3 pb-3">Знакомая картинка? А вы ведь постоянно сталкиваетесь с этой архитектурой — когда покупаете билет в кино онлайн, бронируете путевку на море или записываетесь к врачу.
+      </div>
+      <div class="col-md-6 pt-3 pb-3">
+        На клиент-серверной архитектуре построены все сайты и интернет-сервисы. Также ее используют десктоп-программы, которые передают данные по интернету. Поэтому ИТ-специалисту нужно понимать, что это такое и как работает.
+      </div>
+
+    </div>
+
+
+
+    <h1 >Что это и как работает</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://habrastorage.org/webt/b8/n9/qs/b8n9qss1praiqxr3k4ugxqjr-pe.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/pa/yr/cx/payrcxhy17thnygvgnjr9nuhd_w.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/ot/fo/uf/otfoufn62f1yv3lujpbmgpxf_e0.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/vp/uw/6g/vpuw6ggltwq_ioccgbhm2kmnbcc.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/wk/c7/op/wkc7opsymnp5tkbzd7dtzo3o53i.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/7l/ot/q1/7lotq1brsfgwm_9py7iljzyxibg.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/1i/wm/_j/1iwm_jm15bkgqczdnzvdzp9z7xc.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/oo/xw/ub/ooxwubcnze1b6xwtnvwp-xkl7lk.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/95/w6/35/95w635ditc6a1dkqnwixg9nhbra.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/xh/t9/y2/xht9y24ecaeyh5hugzcrd19zgew.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://habrastorage.org/webt/v3/cr/0u/v3cr0uhpczy4_aq_okf0qe-5tvc.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <ul>
+      <li>Web — в браузере открыта, как google или facebook</li>
+      <li>Desktop — на компьютере, как ворд или калькулятор</li>
+    </ul>
+
+  </section>
+
+  <section class="d-flex flex-column col-md-8 m-auto">
+    <h1 id="2">Зачем нужен клиент</h1>
+    <img src="https://habrastorage.org/webt/cu/oe/nj/cuoenjcbgubnqz7es8ykoyopzhu.png" alt="" class="col-md-4 m-auto">
+    <p class="pt-3 pb-3">Тут все просто — с клиентом работает пользователь. Он нужен, чтобы превратить байтики программного кода в красивую и понятную картинку. Пользователь — не программист, он не понимает язык программирования или sql. Он понимает формочки и кнопочки. Их в клиенте и рисуем.</p>
+    
+    <h1 id="3">Зачем нужен сервер</h1>
+    <img src="https://habrastorage.org/webt/11/rv/6z/11rv6zm-vr22tsqvhwqx7gimupw.png" alt="" class="col-md-4 m-auto">
+    <p class="pt-3 pb-3">
+      Клиентов может быть много. В примере с банком у нас может быть по 10 отделений в 10 городах России, а в каждом отделении по 10 операционисток. Тысяча Катек, и у каждой отдельный компьютер.
+    </p>
+    <p>
+      А мы ведь хотим, чтобы приложение работало быстро. Чтобы оно не тупило и не зависало, нервируя операциониста и заставляя клиента ждать. Значит, машина нужна мощная. Но если делать мощным каждый компьютер операциониста, денег придется вложить очень много!<br>Поэтому мы выносим всю основную логику на сервер. И вот его уже делаем мощным! А клиентские машины могут быть дешевыми, потому что на них остается лишь логика в стиле «запросить информацию и красиво отрисовать».
+    </p>
+    <ul>
+      <li>
+        <h3>
+          Нет дублирования кода
+        </h3>
+        <p>
+          Если бы у нас были только клиентские машины, на каждой из них хранился бы одинаковый код по обработке логики, лежала вся база данных, все справочники террористов и прочая. Но так как сервер и БД вынесены в отдельные звенья, с клиентской машины освобождается куча места… И кода.
+        </p>
+      </li>
+      <li>
+        <h3>
+          Так безопаснее
+        </h3>
+        <p>
+          На сервере и в базе хранится информация, недоступная простому операционисту. Это:
+        </p>
+        <ol>
+          <li>Персональные данные клиентов</li>
+          <li>Сведения о его финансах</li>
+          <li>Черные списки банка</li>
+        </ol>
+        <p>Зачем показывать эту информацию всем и каждому? Операционистка видит только свой интерфейс. Вбила ФИО — получила ответ, дать кредит или нет. Всё. Ей больше ничего не нужно.
+
+          Есть операционисты, готовые за денюшку слить информацию о клиентах. Есть нечистые на руку люди, готовые невзначай заглянуть через плечо. А, может, клиент сам такой человек. Представляете, отпихивает Вася хрупкую Катю, садится за ее компьютер, и переводит себе на счет миллионы, пока его не повяжет охрана.</p>
+      </li>
+    </ul>
+
+
+    <h1 id="4">Зачем нужна база</h1>
+    <p>При чем же тут БД? Вот у нас есть наш сервер, пусть он и хранит всю информацию. Бывает и так, иногда база просто не нужна и у нас остается двузвенная архитектура клиент-сервер.</p>
+    <img src="https://habrastorage.org/webt/r4/pj/dl/r4pjdljjkvbhpg43iavptmem3_0.png" alt="" class="col-md-4 m-auto">
+    <p>В таком случае все данных сервер хранит в памяти. Вот только если сервер упадет, или просто перезагрузится — вся информация будет потеряна. Все, что было в памяти, стирается при выключении системы.</p>
+    <p>То есть если вдруг пропадет сеть, база зависнет, машина с базой перезагрузится, или случится что-то другое, наши изменения не пропадут. Это называется персистентность. Достигается она за счет транзакций, которые откатываются, когда что-то идет не так. Но в этой статье мы углубляться в эту тему не будем ))</p>
+  </section>
+
+  <section class="d-flex flex-column col-md-8 m-auto"> 
+    <h1 id="5">Плюсы архитектуры</h1>
+    <p>
+      Резюмируем плюсы архитектуры:
+    </p>
+    <ol>
+      <li class="pt-3 pb-3"><strong>Мощный сервер дешевле 100+ мощных клиентских машин</strong>— если мы хотим, чтобы приложение не тормозило, нужна хорошая машина. Она у вас будет одна. Или несколько, если нагрузка большая, но явно меньше, чем количество клиентов. </li>
+      <li class="pt-3 pb-3"><strong>Нет дублирования кода</strong>— основной код хранится на сервере, клиент отвечает только за «нарисовать красивенько» и простенькие проверки на полях «тут число, тут строка не длиннее 100 символов».</li>
+      <li class="pt-3 pb-3"><strong>Персональные данные в безопасности </strong>— простой пользователь не видит лишнего. Он не знает ваше ключевое слово, паспортные данные и количество денег на счете. </li>
+    </ol>
+
+    <h1 id="6">Минусы архитектуры:</h1>
+    <p><strong>Упало одно звено — все отдыхают</strong></p>
+    <p class="pt-3 pb-3">Если упал сервер или отвалилась база, то есть испортилось 1 звено — всё, все в ступоре, все отдыхают. Сотни, тысячи, да хоть миллионы клиентов если есть — никто не может работать. Все операционистки грустно смотрят на окно «Простите, что-то пошло не так» и разводят руками перед клиентом.</p>
+    <p class="pt-3 pb3">Именно поэтому в бизнес-критичном ПО архитектуру усложняют и даже дублируют. Банк с тысячами операционистов не может позволить себе простой. Поэтому они используют кластер серверов — один упал, остальные работают.</p>
+  </section>
+
+  <section class="d-flex flex-column col-md-8 m-auto" id='7'>
+    <h1>Итого</h1>
+    <img src="https://habrastorage.org/webt/b8/hj/-b/b8hj-bsbrdh9uaiclyakoe2afli.png" alt="" сlass="col-md-4 m-auto">
+
+
+
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Термин</th>
+          <th scope="col">Определение</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Клиент</td>
+          <td>— та программа, с которой работает пользователь. Он знать не знает, это у него на компьютере программа целиком, или где-то за ней прячутся сервер с базой, а то и целый RAID. Он работает в браузере или с desktop-приложением. И всё, что ему нужно знать — это «куда тут тыкать».</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Сервер</td>
+          <td>— компьютер, на котором хранится само приложение. Весь код, вся логика, все дополнительные материалы и справочники. Например, справочник адресов ФИАС или справочник юр лиц ЕГРЮЛ — они тоже занимают место, как сами по себе, так и в памяти приложения.</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>БД (база данных) </td>
+          <td>— хранилище данных. Тут вы можете легко поискать информацию + уверены в том, что она сохранится, даже если в приложении что-то сломается.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+
+
+  <footer>
+    <button type="button" class="btn btn-primary col-12" data-toggle="modal" data-target="#exampleModal">
+      Источник
+    </button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Источник</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Хабр — русскоязычный веб-сайт в формате системы тематических коллективных блогов с элементами новостного сайта, созданный для публикации новостей, аналитических статей, мыслей, связанных с информационными технологиями, бизнесом и интернетом. Основан Денисом Крючковым в июне 2006 года.
+            <a href="https://habr.com/ru/post/495698/">ссылка на статью</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h5 class="text-center">Работу выполнил Обельченко Иван, группа 201-321</h5>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
